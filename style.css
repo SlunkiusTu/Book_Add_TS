@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 600px;
+  margin: auto;
+  margin-top: 9rem;
+}
+
+.form input {
+  padding: 0.6rem;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.display {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.books-container {
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.books-container div {
+  padding: 4px;
+}
